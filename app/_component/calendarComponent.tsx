@@ -115,7 +115,7 @@ export default function CalendarComponent() {
                 defaultView={Views.MONTH}
                 date={new Date(date.getFullYear(), month)}
                 onNavigate={(date) => setDate(new Date(date))}
-                style={{ height: 500 }}
+                style={{ height: 400 }}
               />
             ))}
           </div>
